@@ -11,5 +11,27 @@ body {
 .btn_link {
     border: none !important;
     background-color: transparent !important;
+
+}
+
+.btn_form {
+    color: white !important;
+    background-color: transparent !important;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.btn_form:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: whitesmoke !important;
+}
+
+.logo_navbar {
+    max-width: 100px !important;
+    min-width: 50px !important;
+    min-height: 40px !important;
+    background-image: url(/storage/img/pin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center !important;
     
 }
