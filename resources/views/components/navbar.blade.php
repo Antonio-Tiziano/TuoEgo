@@ -27,9 +27,20 @@
                             <li class="nav-item">
                                 <a class="nav-link fw-lighter" aria-current="page" href="#">Aiuto</a>
                             </li>
+                            @guest
                             <li class="nav-item">
                                 <a class="nav-link fw-lighter" aria-current="page" href="{{route('login')}}">Accedi</a>
-                            </li>
+                            </li>                                
+                            @endguest
+                            @auth
+                            <li class="nav-item"><form
+                                class=""
+                                method="POST"
+                                action="{{route('logout')}}">
+                                @csrf
+                                <button class="btn_link nav-link" type="submit">Logout</button>
+                              </form></li>                                              
+                            @endauth
                         </ul>
                     </div>
                 </div>
