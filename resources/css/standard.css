@@ -29,9 +29,15 @@ body {
     max-width: 100px !important;
     min-width: 50px !important;
     min-height: 40px !important;
-    background-image: url(/storage/img/pin.png);
+    background-image: url(/storage/app/public/img/pin.png);
     background-size: contain;
     background-repeat: no-repeat;
     align-items: center !important;
     
+}
+
+.dropdown-content {
+    z-index: 9999 !important;
+    position: absolute !important; /* Assicurati che la posizione sia relativa al genitore appropriato */
+    /* Aggiungi altre regole CSS se necessario */
 }

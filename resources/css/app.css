@@ -1,3 +1,10 @@
-@import 'standard.css';
-@import 'bootstrap';
-@import 'form.css';
+/* @import 'standard.css';
+@import 'form.css'; */
+/* @import 'masthead.css'; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'daisyui';

@@ -1,137 +1,76 @@
-<div class="container-fluid">
-    {{-- Prima navbar minore --}}
-    <div class="row d-none d-lg-block">
-        <nav class="navbar p-0 navbar-expand">
-            <div class="container-fluid">
-                <div class="row align-items-center justify-content-between vw-100">
-                    <div class="col-6">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <i class="bi bi-1-circle text-dark fs-4"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <i class="bi bi-1-circle text-dark fs-4"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <ul class="navbar-nav justify-content-end align-items-center">
-                            <li class="nav-item">
-                                <a class="nav-link fw-lighter" aria-current="page" href="#">Trova negozio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link fw-lighter" aria-current="page" href="#">Aiuto</a>
-                            </li>
-                            @guest
-                                <li class="nav-item">
-                                    <a class="nav-link fw-lighter" aria-current="page"
-                                        href="{{ route('login') }}">Accedi</a>
-                                </li>
-                            @endguest
-                            @auth
-                                <li class="nav-item">
-                                    <form class="" method="POST" action="{{ route('logout') }}">
-                                        @csrf
-                                        <button class="btn_link nav-link" type="submit">Logout</button>
-                                    </form>
-                                </li>
-                            @endauth
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+<div class="navbar bg-base-100">
+    <div class="navbar-start">
+        <a href="#" class="btn logo_navbar m-2 btn-ghost text-xl"></a>
     </div>
-    {{-- navbar Reale --}}
-    <div class="row">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="row vw-100 d-flex align-items-center justify-content-between">
-                    <div class="col-lg-4 col-12 justify-content-between d-flex align-items-center">
-                        <a class="navbar-brand align-content-center align-items-center" href="#">
-                            <div class=" logo_navbar"></div>
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class=" col-lg-4 collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Uomo
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Scarpe</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Abbigliamento</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Accessori</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Donna
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Scarpe</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Abbigliamento</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Accessori</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="d-block d-lg-none">
-                                <div class="row">
-                                    <div class="col-1 ">
-                                        <i class="bi bi-search"></i>
-                                    </div>
-                                    <div class="col-1 ">
-                                        <i class="bi bi-heart"></i>
-                                    </div>
-                                    <div class="col-1 ">
-                                        <i class="bi bi-bag"></i>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="d-none d-lg-block col-lg-4 justify-content-end d-flex">
-                        <div class="container">
-                            <div class="row d-flex justify-content-end">
-                                <div class="col-2 d-flex justify-content-end">
-                                    <i class="bi bi-search"></i>
-                                </div>
-                                <div class="col-2 d-flex justify-content-end">
-                                    <i class="bi bi-heart"></i>
-                                </div>
-                                <div class="col-2 d-flex justify-content-end">
-                                    <i class="bi bi-bag"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="navbar-center ">
+        <div class="dropdown mx-5 dropdown-hover align-middle">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <a href="">Offerte</a> <!-- Link to Offerte page -->
             </div>
-        </nav>
+            <ul tabindex="0" class="dropdown-content z-[50] menu p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="">In evidenza</a></li>
+                <li><a href="">Scarpe</a></li>
+                <li><a href="">Abbigliamento</a></li>
+                <li><a href="">Accessori</a></li>
+            </ul>
+        </div>
+        <div class="dropdown mx-5 dropdown-hover">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <a href="">Uomo</a> <!-- Link to Offerte page -->
+            </div>
+            <ul tabindex="0" class="dropdown-content z-[50] menu p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="">In evidenza</a></li>
+                <li><a href="">Scarpe</a></li>
+                <li><a href="">Abbigliamento</a></li>
+                <li><a href="">Accessori</a></li>
+            </ul>
+        </div>
+        
+        <div class="dropdown mx-5 dropdown-hover">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <a href="">Donna</a> <!-- Link to Offerte page -->
+            </div>
+            <ul tabindex="0" class="dropdown-content z-[50] menu p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="">In evidenza</a></li>
+                <li><a href="">Scarpe</a></li>
+                <li><a href="">Abbigliamento</a></li>
+                <li><a href="">Accessori</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="navbar-end">
+        <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+        </button>
+        <div class="btn btn-ghost btn-circle">
+            <div class="dropdown mx-5 dropdown-hover dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                      </svg>
+                      
+                </div>
+                <ul tabindex="0" class="dropdown-content z-[50] menu p-2 shadow bg-base-100 rounded-box w-52">
+                    @if (Auth::user())
+                    <li>
+                        <a class=" link-neutral m-1" href="">Profilo</a>
+                    </li>
+                    <li>
+
+                        <form
+                        action="{{route('logout')}}" method="POST">
+                        @csrf
+                            <button type="submit" class="link-neutral m-3">LOGOUT</button>
+                        </form>
+                    </li>
+                                         
+                    @endif
+                    @guest
+                    <li><a class=" link-neutral m-3" href="{{route('login')}}">Accedi/Registrati</a></li>               
+                    @endguest
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
+<x-masthead></x-masthead>
