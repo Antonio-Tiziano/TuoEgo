@@ -1,6 +1,6 @@
-/* @import 'standard.css';
-@import 'form.css'; */
-/* @import 'masthead.css'; */
+@import 'standard.css';
+@import 'form.css'; 
+@import 'masthead.css';
 
 
 @tailwind base;
