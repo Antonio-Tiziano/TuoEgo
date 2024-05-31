@@ -7,3 +7,7 @@
     background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
     opacity: 0.5 !important;
   }
+/* 
+  .card {
+    max-height: 300px !important;
+  } */
