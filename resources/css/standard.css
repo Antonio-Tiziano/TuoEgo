@@ -31,3 +31,8 @@ body {
     position: absolute !important; /* Assicurati che la posizione sia relativa al genitore appropriato */
     /* Aggiungi altre regole CSS se necessario */
 }
+
+#problema{
+    grid-auto-columns: auto;
+
+}
