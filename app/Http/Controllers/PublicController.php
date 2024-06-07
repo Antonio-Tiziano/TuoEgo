@@ -10,4 +10,16 @@ class PublicController extends Controller
     {
         return view('welcome');
     }
+
+    public function Profil()
+    {
+        return view('profile.user');
+    }
+
+    public function AddProduct()
+    {
+        return view('profile.product');
+    }
+
+
 }

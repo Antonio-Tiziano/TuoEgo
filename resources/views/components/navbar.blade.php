@@ -55,13 +55,18 @@
             <ul tabindex="0" class="dropdown-content dropdown-left menu p-2 shadow bg-base-100 rounded-box w-52">
                 @if (Auth::user())
                 <li>
+                    <a class="justify-center link-neutral m-1" href="{{route('profil')}}">Profilo</a>
+                </li>
+                @if (Auth::user() && Auth::user()->is_admin)
+                <li>
+                    <a class="justify-center link-neutral m-1" href="{{route('add.product')}}">Aggiungi articolo</a>
+                </li>
+                @endif
+                <li>
                     <form id="problema" class="w-full" action="{{route('logout')}}" method="POST">
                         @csrf
                         <button style="width: 100%;" type="submit" class="link-neutral w-full">Logout</button>
                     </form>
-                </li>
-                <li>
-                    <a class="justify-center link-neutral m-1" href="{{route('home')}}">Profilo</a>
                 </li>
                 @endif
                 @guest
