@@ -1,29 +1,31 @@
 
 <div class="flex flex-col w-full md:flex-row">
 
-    <div class="w-full my-3 flex items-center justify-center">
-        <div class="card  bg-base-100  shadow-xl image-full">
+    <div class="w-full p-5 md:p-7 lg:p-12 xl:p-18 2xl:p-28 flex items-center justify-center">
+        <div class="card bg-base-100 shadow-xl image-full relative">
             <figure><img src="storage/img/uno.jpeg" alt="Shoes" /></figure>
-            <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
+            <div class="card-body absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center p-4">
+                <h2 class="card-title font-bold text-5xl p-3">Sail into Summer!</h2>
+                <p>With the lastest arrivals</p>
+                <div class="card-actions mt-2">
                     <button class="btn btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="w-full my-3 flex items-center justify-center">
-        <div class="card  bg-base-100   shadow-xl image-full">
-            <figure><img src="storage/img/prova.jpg" alt="Shoes" /></figure>
-            <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
+    
+    <div class="w-full p-5 md:p-7 lg:p-12 xl:p-18 2xl:p-28 flex items-center justify-center">
+        <div class="card bg-base-100 shadow-xl image-full relative">
+            <figure><img src=  "storage/img/IMG_4187.jpg" alt="Shoes" /></figure>
+            <div class="card-body absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center p-4">
+                <h2 class="card-title font-bold text-5xl p-3">Shoes!</h2>
                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
+                <div class="card-actions mt-2">
                     <button class="btn btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>
     </div>
+  
     
   </div>
