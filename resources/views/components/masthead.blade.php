@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="w-full p-5 md:p-7 lg:p-12 xl:p-18 2xl:p-28 flex items-center justify-center">
         <div class="card bg-base-100 shadow-xl image-full relative">
             <figure><img src=  "storage/img/IMG_4187.jpg" alt="Shoes" /></figure>
@@ -26,6 +26,6 @@
             </div>
         </div>
     </div>
-  
-    
+
+
   </div>
