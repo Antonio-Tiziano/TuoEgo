@@ -81,7 +81,7 @@
         <div class="w-full lg:w-1/4 md:w-1/3 p-5 flex items-center justify-center m-4">
             <!-- Card 1 -->
             <div class="card bg-base-100 shadow-xl image-full relative">
-                <figure><img src="storage/img/uno.jpeg" alt="Shoes" /></figure>
+                <figure><img src="storage/img/IMG_4187.jpg" alt="Shoes" /></figure>
                 <div class="card-body absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center p-4">
                     <h2 class="card-title font-bold text-5xl px-3 pt-5">Sail into Summer!</h2>
                     <p>With the latest arrivals</p>
