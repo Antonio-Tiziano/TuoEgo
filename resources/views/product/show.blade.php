@@ -8,7 +8,14 @@
             <a href="" class="text-xl mt-4">Scarpa donna</a>
             <!-- Prezzo -->
             <h4 class="text-xl mt-2">150€</h4>
+            <div class="my-4 lg:block hidden sticky flex justify-center">
+                <div class="flex flex-col">
+                    <button class="btn btn-neutral mb-2">Aggiungi al carrello</button>
+                    <button class="btn btn-active">Aggiungi ai preferiti</button>
+                </div>
+            </div>
         </div>
+
 
         <!-- Carosello e miniature -->
         <div class="flex-1 flex flex-col justify-center items-center md:flex-row h-full lg:w-1/2 lg:order-1">
@@ -35,8 +42,16 @@
                     <img src="https://picsum.photos/id/236/350/500" class="w-full h-auto object-contain" />
                 </div>
             </div>
+
         </div>
     </div>
+    <div class="my-4 lg:hidden sticky flex justify-center">
+        <div class="flex flex-col items-center">
+            <button class="btn btn-neutral mb-2">Aggiungi al carrello</button>
+            <button class="btn btn-active">Aggiungi ai preferiti</button>
+        </div>
+    </div>
+    
 
     <!-- JavaScript for handling the thumbnail click -->
     <script>
