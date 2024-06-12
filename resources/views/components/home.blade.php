@@ -9,11 +9,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -25,11 +25,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -40,11 +40,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -55,11 +55,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 p text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -134,11 +134,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -150,11 +150,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -165,11 +165,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
@@ -180,11 +180,11 @@
                 </div>
                 <div class="mt-4 flex flex-col items-start">
                     <h3 class="text-gray-700 text-2xl font-extrabold">
-                        <a href="#">Maglia</a>
+                        <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
                     <p class="mt-1 p text-sm text-gray-500 pr-3">XL Park vegetable tanned leather tote</p>
                     <h5 class="text-gray-700 mt-3 text-xl font-extrabold">
-                        <a href="#">150 €</a>
+                        <a href="{{route('show.product')}}">150 €</a>
                     </h5>
                 </div>
             </div>
