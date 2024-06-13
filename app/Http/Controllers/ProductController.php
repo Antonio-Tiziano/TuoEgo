@@ -7,9 +7,11 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    public $name;
+    public $price;
+    public $description;
+    public $img;
+
     public function index()
     {
         //
@@ -21,6 +23,7 @@ class ProductController extends Controller
     public function create()
     {
 
+
     }
 
     /**
@@ -28,7 +31,19 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $products = Product::create([
+            'name' => $request->name,
+            'price' => $request->price,
+            'description' => $request->description,
+            'img' => $request->img,
+        ]);
+
+    $products->save();
+
+    return redirect()->back()->with('message', 'Articolo creato con successo');
+
+
     }
 
     /**

@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
     public function Welcome()
     {
-        return view('welcome');
+        $products = Product::all();
+
+        return view('welcome', compact('products'));
     }
 
     public function Profil()
@@ -20,6 +23,5 @@ class PublicController extends Controller
     {
         return view('profile.product');
     }
-
 
 }

@@ -1,7 +1,7 @@
 <div class=" justify-center mb-5 md:mb-10">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 text-center">
         <h2 class="text-2xl font-bold tracking-tight text-active">New arrivals!</h2>
-
+{{-- dato si chiama products --}}
         <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             <div class="">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
@@ -66,11 +66,11 @@
 
             <!-- More products... -->
         </div>
-        
+
     </div>
     <div class="mx-auto text-center">
         <button class="btn btn-active btn-neutral">Scopri di più</button>
-    </div>    
+    </div>
 </div>
 
 
@@ -119,7 +119,7 @@
                 </div>
             </div>
         </div>
-  
+
     </div>
 </div>
 
@@ -191,9 +191,9 @@
 
             <!-- More products... -->
         </div>
-        
+
     </div>
     <div class="mx-auto text-center">
         <button class="btn btn-active btn-neutral">Scopri di più</button>
-    </div>    
+    </div>
 </div>

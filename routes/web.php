@@ -11,3 +11,5 @@ Route::get('/profil', [PublicController::class, 'Profil'])->name('profil');
 Route::get('/add-product', [PublicController::class, 'AddProduct'])->name('add.product');
 
 Route::get('/show-product', [ProductController::class, 'ShowProduct'])->name('show.product');
+
+Route::POST('/store', [ProductController::class, 'store'])->name('store.product');

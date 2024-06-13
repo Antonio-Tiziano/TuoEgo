@@ -26,7 +26,7 @@
                 <img src="https://picsum.photos/id/239/350/500" alt="Image 3" class="w-24 h-24 object-cover cursor-pointer" onclick="showSlide(3)">
                 <img src="https://picsum.photos/id/236/350/500" alt="Image 4" class="w-24 h-24 object-cover cursor-pointer" onclick="showSlide(4)">
             </div>
-            
+
             <!-- Main Carousel -->
             <div class="carousel w-full h-full">
                 <div id="slide1" class="carousel-item relative w-full max-w-lg mx-auto">
@@ -51,7 +51,7 @@
             <button class="btn btn-active">Aggiungi ai preferiti</button>
         </div>
     </div>
-    
+
 
     <!-- JavaScript for handling the thumbnail click -->
     <script>
