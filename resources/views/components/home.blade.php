@@ -8,13 +8,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="truncate mt-1 text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p class="overflow-hidden max-h-10 mt-1 text-left text-sm text-active">XL Park vegetable tanned leather tote Lorem ipsum, dolor sit amet consectetur </p>
                 </div>
             </div>
 
@@ -24,13 +24,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="truncate mt-1 text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p clas10 mt-1 text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
@@ -39,13 +39,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="truncate mt-1 text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p clas10 mt-1 text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
@@ -54,13 +54,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="mt-1 p text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p class="mt-1 p text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
@@ -125,7 +125,7 @@
 
 <div class=" justify-center mb-5 md:mb-10">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 text-center">
-        <h2 class="text-2xl font-bold tracking-tight text-gray-900">New arrivals!</h2>
+        <h2 class="text-2xl font-bold tracking-tight text-active">New arrivals!</h2>
 
         <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             <div class="">
@@ -133,13 +133,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="truncate mt-1 text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p clas10 mt-1 text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
@@ -149,13 +149,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="truncate mt-1 text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p clas10 mt-1 text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
@@ -164,13 +164,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="truncate mt-1 text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p clas10 mt-1 text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
@@ -179,13 +179,13 @@
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men's Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
                 <div class="mt-4 flex flex-col items-start">
+                    <h5 class="text-primary mb-1 text-xl font-extrabold">
+                        <a href="{{route('show.product')}}">150 €</a>
+                    </h5>
                     <h3 class="text-active text-2xl font-extrabold">
                         <a href="{{route('show.product')}}">Maglia</a>
                     </h3>
-                    <p class="mt-1 p text-sm text-active">XL Park vegetable tanned leather tote</p>
-                    <h5 class="text-primary mt-3 text-xl font-extrabold">
-                        <a href="{{route('show.product')}}">150 €</a>
-                    </h5>
+                    <p class="mt-1 p text-left text-sm text-active">XL Park vegetable tanned leather tote</p>
                 </div>
             </div>
 
