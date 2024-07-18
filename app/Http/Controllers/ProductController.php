@@ -11,6 +11,7 @@ class ProductController extends Controller
     public $price;
     public $description;
     public $img;
+    public $imgPath;
 
     public function index()
     {
@@ -32,17 +33,22 @@ class ProductController extends Controller
     public function store(Request $request)
     {
 
-        $products = Product::create([
+         $products = Product::create([
             'name' => $request->name,
             'price' => $request->price,
             'description' => $request->description,
             'img' => $request->img,
         ]);
 
+        $img = $request->File('img') ? $request->file('img')->store('public/img') : 'public/img/default-image.webp';
+
+
     $products->save();
 
     return redirect()->back()->with('message', 'Articolo creato con successo');
 
+
+return redirect()->back()->with('message', 'Articolo creato con successo');
 
     }
 

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('description');
             $table->float('price');
-            $table->string('img')->nullable()->default('public/img/profil-defaul.jpeg');
+            $table->string('img')->nullable();
             $table->timestamps();
         });
     }
